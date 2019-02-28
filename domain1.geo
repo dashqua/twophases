@@ -9,6 +9,6 @@ Cylinder(2) = {1, 1, 0, 0, 0, 1, 0.75, 1*Pi};
 
 Mesh.CharacteristicLengthMin = 0.1;
 Mesh.CharacteristicLengthMax = 2;
-BooleanDifference(100) = { Volume{1}; Delete; }{ Volume{2}; Delete; };
+//BooleanDifference(100) = { Volume{1}; Delete; }{ Volume{2}; Delete; };
 
 
